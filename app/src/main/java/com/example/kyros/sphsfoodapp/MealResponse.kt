@@ -5,7 +5,7 @@ package com.example.kyros.sphsfoodapp
  */
 
 data class MealResponse(
-		val meals: List<Meal>
+		val meals: List<Meal>? = null
 )
 
 data class Meal(
